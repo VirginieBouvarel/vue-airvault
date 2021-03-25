@@ -1,9 +1,9 @@
 <template>
   <div class="header">
       <div class="nav">
-      <router-link class="nav__link nav__link--home" to="/">Home</router-link>
-      <router-link class="nav__link" to="/about">About</router-link>
-      <router-link class="nav__link" to="/contact">Contact</router-link>
+      <router-link to="/">Home</router-link>
+      <router-link to="/about">About</router-link>
+      <router-link to="/contact">Contact</router-link>
     </div>
   </div>
 </template>
@@ -29,8 +29,5 @@ export default {
       color: #45C5FF;
     }
   }
-}
-a.nav__link.nav__link--home {
-    width:60px;
 }
 </style>
