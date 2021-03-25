@@ -9,17 +9,25 @@
 
 <style lang="scss" scoped>
 .about {
-  padding:1rem;
+  padding:3rem 1rem;
   font-size:15px;
   text-align:left;
+  max-width:600px;
+  margin:0 auto;
+
+  h2 {
+    color: #45C5FF;
+    border-bottom:2px solid #45C5FF;
+    max-width:355px;
+    text-align:center;
+    margin:0 auto 3rem;
+    padding-bottom:1rem;
+  }
+
+  p {
+    margin-bottom:1rem;
+  }
 }
-h2 {
-  color: #45C5FF;
-  border-bottom:2px solid #45C5FF;
-  margin-bottom:1rem;
-  text-align:center;
-}
-p {
-  margin-bottom:1rem;
-}
+
+
 </style>

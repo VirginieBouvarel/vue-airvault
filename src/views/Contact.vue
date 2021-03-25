@@ -23,16 +23,16 @@
 
 <style lang="scss" scoped>
 .contact {
-    padding:1rem;
+    padding:3rem 1rem;
     font-size:15px;
     text-align:center;
 
     h2 {
     color: #45C5FF;
     border-bottom:2px solid #45C5FF;
-    margin-bottom:1.5rem;
-
     max-width:355px;
+    margin:0 auto 6rem;
+    padding-bottom:1rem;
     }
 
     &__content {
