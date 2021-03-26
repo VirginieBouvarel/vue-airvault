@@ -5,7 +5,7 @@
     <p>Générateur de mots de passe</p>
     <form action="#">
       <input type="text" name="user_input" id="user_input">
-      <button type="submit">Générer un mot de passe</button>
+      <button type="submit">Générer 2 mots de passe</button>
     </form>
   </div>
 </template>
